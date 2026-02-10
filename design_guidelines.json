@@ -1,0 +1,131 @@
+{
+  "identity": {
+    "name": "Anjuman-e-Bagh-e-Zehra",
+    "tone": "Spiritual, Trustworthy, Elegant, Solemn",
+    "archetype": "Jewel & Luxury",
+    "theme_mode": "dark",
+    "brand_essence": "A bridge between tradition and community support, using modern transparency to build trust."
+  },
+  "typography": {
+    "primary_font": "Cinzel",
+    "secondary_font": "Manrope",
+    "heading_styles": {
+      "h1": "font-cinzel text-5xl md:text-7xl font-bold tracking-tight text-gold-400",
+      "h2": "font-cinzel text-4xl md:text-5xl font-semibold tracking-tight text-gold-300",
+      "h3": "font-cinzel text-2xl md:text-3xl font-medium tracking-wide text-gold-200"
+    },
+    "body_styles": {
+      "base": "font-manrope text-base text-gray-300 leading-relaxed",
+      "large": "font-manrope text-lg text-gray-200 leading-relaxed",
+      "small": "font-manrope text-sm text-gray-400"
+    }
+  },
+  "colors": {
+    "palette": {
+      "background": {
+        "default": "#050505",
+        "paper": "#0A0A0A",
+        "subtle": "#121212"
+      },
+      "primary": {
+        "main": "#D4AF37",
+        "light": "#F3E5AB",
+        "dark": "#996515",
+        "text": "#E5C15D"
+      },
+      "secondary": {
+        "main": "#800000",
+        "light": "#A52A2A",
+        "dark": "#590D0D",
+        "desc": "Maroon - Use for emotional highlights or 'Tragedy' contexts"
+      },
+      "accent": {
+        "green": "#10451D",
+        "green_light": "#1B5E20",
+        "desc": "Deep Green - Use for 'Success' states or 'Community' sections"
+      },
+      "text": {
+        "primary": "#F5F5F5",
+        "secondary": "#A3A3A3",
+        "muted": "#525252"
+      },
+      "border": {
+        "default": "#262626",
+        "gold_subtle": "rgba(212, 175, 55, 0.15)",
+        "gold_strong": "rgba(212, 175, 55, 0.4)"
+      }
+    },
+    "gradients": {
+      "gold_sheen": "linear-gradient(135deg, #996515 0%, #D4AF37 50%, #F3E5AB 100%)",
+      "dark_mist": "radial-gradient(circle at center, #121212 0%, #000000 100%)"
+    }
+  },
+  "visual_enhancers": {
+    "borders": "1px solid rgba(212, 175, 55, 0.2)",
+    "shadows": {
+      "gold_glow": "0 0 15px rgba(212, 175, 55, 0.1)",
+      "deep": "0 10px 30px -10px rgba(0, 0, 0, 0.8)"
+    },
+    "glassmorphism": {
+      "card": "bg-black/60 backdrop-blur-xl border border-gold-500/10 shadow-lg",
+      "header": "bg-black/80 backdrop-blur-md border-b border-white/5"
+    },
+    "textures": {
+      "noise": "url('/assets/noise.png') opacity-5",
+      "geometric": "url('/assets/islamic-pattern.svg') opacity-5"
+    }
+  },
+  "layout_strategy": {
+    "container": "max-w-7xl mx-auto px-6 md:px-12",
+    "spacing": {
+      "section_gap": "py-24 md:py-32",
+      "element_gap": "gap-8"
+    },
+    "grids": {
+      "landing_hero": "grid grid-cols-1 md:grid-cols-12 gap-6",
+      "plans": "grid grid-cols-1 md:grid-cols-4 gap-6",
+      "dashboard": "grid grid-cols-1 md:grid-cols-4 gap-6 auto-rows-min"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-gradient-to-r from-yellow-700 to-yellow-600 hover:from-yellow-600 hover:to-yellow-500 text-white font-cinzel tracking-widest uppercase text-sm px-8 py-3 rounded-sm shadow-[0_0_15px_rgba(212,175,55,0.3)] transition-all duration-300 border border-yellow-400/20",
+      "secondary": "bg-transparent border border-yellow-600/50 text-yellow-500 hover:bg-yellow-900/20 font-cinzel tracking-widest uppercase text-sm px-8 py-3 rounded-sm transition-all duration-300",
+      "danger": "bg-red-900/20 border border-red-900/50 text-red-400 hover:bg-red-900/40"
+    },
+    "cards": {
+      "feature": "group relative overflow-hidden bg-white/5 border border-white/10 p-8 hover:border-yellow-500/30 transition-all duration-500",
+      "plan": "flex flex-col bg-gradient-to-b from-gray-900 to-black border border-yellow-600/20 p-8 rounded-lg hover:transform hover:-translate-y-2 transition-all duration-300 hover:shadow-[0_10px_40px_-10px_rgba(212,175,55,0.15)] relative",
+      "dashboard_stat": "bg-card text-card-foreground border-border shadow-sm p-6"
+    },
+    "inputs": {
+      "default": "bg-black/50 border-white/10 text-white placeholder:text-gray-600 focus:border-yellow-600/50 focus:ring-1 focus:ring-yellow-600/50 transition-all duration-200"
+    }
+  },
+  "motion": {
+    "transitions": "transition-all duration-300 ease-out",
+    "hover_effects": "hover:text-gold-300 hover:scale-[1.02]",
+    "entrance": {
+      "fade_up": "animate-in fade-in slide-in-from-bottom-8 duration-700 ease-out fill-mode-forwards",
+      "fade_in": "animate-in fade-in duration-1000 ease-out"
+    }
+  },
+  "assets": {
+    "image_urls": {
+      "hero_bg": "https://images.unsplash.com/photo-1761639935382-43452f278898?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "community_hero": "https://images.unsplash.com/photo-1743417597339-f4bc72e2a8ba?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "pattern_texture": "https://images.unsplash.com/photo-1688317498888-4f83fdae3646?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "mosque_interior": "https://images.unsplash.com/photo-1677768246035-e30464ff22b1?crop=entropy&cs=srgb&fm=jpg&q=85"
+    },
+    "icons": "Lucide React (default) or Phosphor Icons (Gold weight)"
+  },
+  "universal_guidelines": [
+    "Dark Mode Only: The spiritual theme relies on shadows and light. Do not implement a light mode toggle unless strictly necessary for accessibility.",
+    "Gold is Sacred: Use gold sparingly. It represents divinity and importance. Do not overuse it for trivial borders.",
+    "Respectful Spacing: Religious texts and content need breathing room. Use 'relaxed' leading and generous padding.",
+    "Data Privacy: For the dashboard, ensure no sensitive donor info is visible in 'public' demo modes.",
+    "Borders over Backgrounds: Prefer transparent backgrounds with subtle 1px borders over solid gray blocks. It feels more 'ethereal'.",
+    "All interactive elements MUST include data-testid attributes."
+  ],
+  "instructions_to_main_agent": "1. Install 'Cinzel' and 'Manrope' fonts via Google Fonts immediately. 2. Configure Tailwind with the custom 'gold' and 'maroon' colors defined in the palette. 3. Build the Landing Page first to establish the visual language. 4. Use Shadcn for the Dashboard but override the default 'slate' styles with the custom 'zinc/black' and 'gold' theme."
+}
